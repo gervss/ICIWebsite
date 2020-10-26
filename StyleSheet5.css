@@ -1,0 +1,344 @@
+﻿body {
+    background-position: center center;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 3000px 3000px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+
+}
+
+input[type=submit]:hover {
+    background-color: #115793;
+    color: #fff;
+}
+
+#DropDownList1 {
+    padding:5px;
+}
+
+
+input[type=text], [type=password] , [type=number], [type=date], [type=email],  [type=reset] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    outline: none;
+    padding: 5px;
+}
+
+
+input[type=text]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=password]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=number]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=date]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=email]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=reset]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+select{
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    padding: 5px;
+
+}
+
+#wrapper
+{
+    width: auto;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#header {
+    border: 3px solid limegreen;
+    height: 160px;
+    width: 1328px;
+    position: absolute;
+    background-color: #333333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0099FF;
+    font-style: normal;
+    top: 15px;
+    left: 14px;
+    background-image: url('images/2.jpg');
+    margin-left: 0px;
+}
+
+#Image1 {
+ position: absolute;
+ left: 112px;
+    top: -6px;
+    right: 992px;
+    height: 152px;
+    width: 226px;
+}
+
+
+
+
+
+#Label1
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label2
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label3
+{
+    position: absolute;
+    font-size: 45px;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#content
+{
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    height: 450px;
+    width: 885px;
+    position: absolute;
+    border-radius: 10px;
+    top: 213px;
+    background-color:white;
+    left: 202px;
+}
+
+
+
+#Label4 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    top: 5px;
+    left: 189px;
+    width: 405px;
+}
+
+#user {
+       position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 89px;
+    left: 183px;
+    width: 165px;
+    bottom: 356px;
+}
+
+#pass {
+        position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 343px;
+    left: 183px;
+    height: 19px;
+}
+
+#TextBox1
+{
+    position:absolute;
+}
+
+#TextBox2
+{
+    position:absolute;
+    top: 193px;
+    left: 181px;
+    width: 409px;
+}
+
+#TextBox3
+{
+    position:absolute;
+    top: 266px;
+    left: 183px;
+    height: 26px;
+    width: 411px;
+}
+#Button1 {
+    position:absolute;
+    top: 370px;
+    left: 253px;
+    width: 116px;
+    right: 536px;
+    height: 45px;
+    margin-top: 3px;
+}
+#footer
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 9px;
+    width: 882px;
+    position: absolute;
+    background-color: deepskyblue;
+    left: 202px;
+    top: 688px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#Label4 {
+    position: absolute;
+    font-size: 45px;
+    color: #0099FF;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label5 {
+    position:absolute;
+    top: 444px;
+    left: 175px;
+}
+
+#Button2 {
+    position:absolute;
+}
+#Label6 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 343px;
+    left: 267px;
+    height: 17px;
+    width: 198px;
+}
+#Label7 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 162px;
+    left: 182px;
+    height: 17px;
+    width: 253px;
+}
+#Label8 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 238px;
+    left: 184px;
+    height: 17px;
+    width: 282px;
+}
+#Label9 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 62px;
+    left: 82px;
+    height: 17px;
+    width: 641px;
+}
+#Label10 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 315px;
+    left: 184px;
+    height: 17px;
+    width: 53px;
+    right: 668px;
+}
+#Label11 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 316px;
+    left: 247px;
+    height: 17px;
+    width: 109px;
+    bottom: 137px;
+}
+#Label12 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 315px;
+    left: 380px;
+    height: 17px;
+    width: 99px;
+    right: 426px;
+}
+#Label13 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    top: 67px;
+    top: 315px;
+    left: 485px;
+    height: 17px;
+    width: 119px;
+    right: 301px;
+}

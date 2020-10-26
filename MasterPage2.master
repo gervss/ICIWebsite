@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <title>SJDM Cornerstone College Inc. Student Portal</title>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    </head>
+<body>
+    <form id="form2" runat="server">
+    <div id ="wrapper">
+
+        <div id="header">
+
+
+            <asp:Image ID="Image1" runat="server" ImageAlign="Left" ImageUrl="~/Images/Picture1.png" />
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label3" runat="server" style="top: 19px; left: 358px" Text="SJDM Cornerstone College Inc."></asp:Label>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Style="top: 76px; left: 485px; height: 29px; width: 430px" Text="(Formerly SJDM Cornerstone Academy Inc.)"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Style="top: 109px; left: 438px; width: 546px; right: 346px" Text="190 Libis II, Muzon, City of San Jose del Monte, Bulacan"></asp:Label>
+            </div>
+                    <div id ="navigation">    
+                        <ul>
+
+             <li><a href='Student.aspx'><span>Profile</span></a></li>
+ 
+             <li><a href='Grade.aspx'><span>Grade</span></a></li>
+  
+             <li><a href='teachers.aspx'><span>Teacher Evaluation</span></a></li>
+
+</ul>
+
+        </div>
+        <div id="sidebar">
+                                    <ul>
+                       <asp:Button ID="Button1" runat="server" BackColor="DeepSkyBlue" BorderColor="DeepSkyBlue" style="margin-left: 0px; top: 7px; left: 1158px; height: 26px;" Text="Logout" Width="101px" OnClick="Button1_Click" />
+                           
+
+                   </ul>
+            <asp:Label ID="Label5" runat="server" style="top: 7px; left: 154px; height: 26px;" Text="0001-SDJM"></asp:Label>
+            <asp:Label ID="Label4" runat="server" Text="Student Number:"></asp:Label>
+        </div>
+                   
+
+                    <div id ="content">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        </div>
+        <div id ="footer">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright(c)2014 SJDM Cornerstone College Inc. All rights reserved.</div>
+
+    
+            <p style="margin-left: 200px">
+
+
+
+            </p>
+        </div>
+    </form>
+</body>
+</html>

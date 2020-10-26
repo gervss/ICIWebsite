@@ -1,0 +1,432 @@
+﻿html{
+    font-family: Verdana;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+
+}
+
+input[type=submit]:hover {
+    background-color: #115793;
+    color: #fff;
+}
+
+#DropDownList1 {
+    padding:5px;
+}
+
+
+input[type=text], [type=password] , [type=number], [type=date], [type=email],  [type=reset] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+
+input[type=text]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=password]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=number]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=date]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=email]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=reset]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+select{
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    padding: 5px;
+
+}
+
+
+body {
+    background-position: center center;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 3000px 3000px;
+}
+
+#wrapper
+{
+    width: auto;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#header {
+    border: 3px solid #3399FF;
+    height: 160px;
+    width: 1276px;
+    position: absolute;
+    background-color: #333333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0099FF;
+    font-style: normal;
+    background-image: url('images/2.jpg');
+    top: 13px;
+    left: 30px;
+}
+
+#Image1 {
+ position: absolute;
+ left: 115px;
+    top: -4px;
+    right: 989px;
+    height: 152px;
+    width: 226px;
+}
+
+#Image2 {
+ position: absolute;
+ left: -637px;
+    top: 100px;
+    right: 762px;
+    height: 33px;
+    width: 52px;
+    margin-top: 0px;
+}
+#Image3 {
+ position: absolute;
+ left: -656px;
+    top: -4px;
+    right: 781px;
+    height: 33px;
+    width: 52px;
+    margin-top: 0px;
+}
+#Image4 {
+ position: absolute;
+ left: 435px;
+    top: -10px;
+    right: -314px;
+    height: 33px;
+    width: 52px;
+    margin-top: 0px;
+}
+#Image5 {
+ position: absolute;
+ left: 621px;
+    top: -184px;
+    right: -555px;
+    height: 33px;
+    width: 52px;
+    margin-top: 0px;
+}
+#Image6 {
+ position: absolute;
+ left: -68px;
+    top: 119px;
+    right: 128px;
+    height: 33px;
+    width: 52px;
+    margin-top: 0px;
+}
+
+
+
+#Label1
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label2
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label3
+{
+    position: absolute;
+    font-size: 45px;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+#sidebar {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 22px;
+    width: 1254px;
+    background-color: deepskyblue;
+    top: 215px;
+    left: 22px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navigation ul,
+#navigation li,
+#navigation a {
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+#navigation {
+    border-color: #3399FF;
+    height: 30px;
+    width: 1280px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: #3399FF;
+}
+#navigation ul {
+  zoom: 1;
+  background: #36b0b6;
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+  background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: #36b0b6;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+    width: 1263px;
+    height: 29px;
+}
+#navigation ul:before {
+  content: '';
+  display: block;
+}
+#navigation ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#navigation li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#navigation li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+#navigation li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#navigation li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#navigation li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#navigation li:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+#content {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px 10px 10px 212px;
+    height: 637px;
+    width: 977px;
+    position: absolute;
+    border-radius: 10px;
+    top: 286px;
+    background-color: #99CCFF;
+    left: -23px;
+    background-image: url('images/Background2.jpg');
+}
+#Label4
+{
+    position: absolute;
+    font-size: large;
+    color: black;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    top: 8px;
+    left: 6px;
+    height: 21px;
+}
+#Label5
+{
+    position: absolute;
+    font-size: large;
+    color: black;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+#Image2 {
+ position: absolute;
+    top: -11px;
+    width: 120px;
+    height: 36px;
+    margin-top: 4px;
+}
+ContentPlaceHolder1
+{
+    position: absolute;
+    height: 800px;
+    width:825px;
+
+}
+
+#Pic1 {
+ position: absolute;
+    top: 28px;
+    left: 20px;
+    width: 100px;
+    height: 110px;
+}
+#footer {
+    border: thin solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 9px;
+    width: 977px;
+    position: absolute;
+    background-color: deepskyblue;
+    left: 179px;
+    top: 946px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#Label6
+ {
+    position: absolute;
+    font-size: 45px;
+    color: #0099FF;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+
+#Button1 {
+    border: 2px solid #000000;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 27px;
+    left: 13px;
+}
+
+#Label7 {
+    position:absolute;
+}
+
+
+.studinfotable {
+    width: auto;
+
+}
+
+.studinfotable td {
+    padding: 5px;
+    width: auto;
+
+}
+
+
+.gradetable {
+ width: 800px;
+ border: 1px solid #128fb7;
+}
+
+
+.gradetable th{
+    background-color: #128fb7;
+    color:#fff;
+    padding: 5px;
+}
+
+.gradetable td{
+    text-align: center;
+     padding: 5px;
+}

@@ -1,0 +1,557 @@
+﻿body {
+    background-position: center center;
+    background-image: url('images/Background2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 3000px 3000px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    margin-top: 0px;
+}
+
+input[type=submit]:hover {
+    background-color: #115793;
+    color: #fff;
+}
+
+#DropDownList1 {
+    padding:5px;
+}
+
+
+input[type=text], [type=password] , [type=number], [type=date], [type=email],  [type=reset] {
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    outline: none;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+
+input[type=text]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=password]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=number]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=date]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=email]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+
+input[type=reset]:focus {
+   
+    border: solid 1px #0b3876;
+  
+}
+select{
+    border-radius: 5px;
+    border: solid 1px #228ddd;
+    padding: 5px;
+
+}
+
+
+#wrapper
+{
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#header {
+    border: 3px solid #3399FF;
+    height: 160px;
+    width: 1276px;
+    position: absolute;
+    background-color: #333333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0099FF;
+    font-style: normal;
+    background-image: url('images/2.jpg');
+    top: 13px;
+    left: 30px;
+}
+
+#Image1 {
+ position: absolute;
+ left: 111px;
+    top: -5px;
+    right: 939px;
+    height: 152px;
+    width: 226px;
+}
+
+
+
+
+
+#Label1
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label2
+{
+    position: absolute;
+    font-size: large;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+#Label3 {
+    position: absolute;
+    font-size: 45px;
+    color: #000099;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+}
+
+
+
+
+
+#navigation ul,
+#navigation li,
+#navigation a {
+  border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+#navigation {
+    border-color: #3399FF;
+    height: 30px;
+    width: 1280px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: #3399FF;
+}
+#navigation ul {
+  zoom: 1;
+  background: #36b0b6;
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+  background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: #36b0b6;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+    width: 1263px;
+    height: 29px;
+}
+#navigation ul:before {
+  content: '';
+  display: block;
+}
+#navigation ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#navigation li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#navigation li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+#navigation li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#navigation li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+#navigation li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#navigation li:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+
+
+
+#slider {
+    border: medium solid deepskyblue;
+    position: absolute;
+    top: 15px;
+    height: 276px;
+    width: 869px;
+    overflow: hidden;
+    background-image: url('Slider/loading2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 12px;
+}
+
+#slider img {
+    width: 869px;
+    height:333px;
+    display:none;
+
+}
+
+#content {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px 10px 10px 212px;
+    height: 828px;
+    width: 880px;
+    position: absolute;
+    border-radius: 10px;
+    top: 198px;
+    left: 3px;
+    background-image: url('images/background.jpg');
+}
+
+#Vision {
+    border: medium solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 9px;
+    width: 885px;
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 201px;
+    top: 981px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+#History {
+    border: 2px solid #0066FF;
+    padding: 10px;
+    margin: 10px;
+    height: 743px;
+    width: 843px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+}
+#Motto {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 9px;
+    width: 885px;
+    position: absolute;
+    background-color: #6699FF;
+    left: 201px;
+    top: 981px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+#ContentPlaceHolder1
+{
+    position: absolute;
+    height: 800px;
+    width:885px;
+    top: 100px;
+
+}
+#ContentPlaceHolder2
+ {
+    position: absolute;
+
+
+}
+#ContentPlaceHolder3 
+{
+    position: absolute;
+}
+
+#ContentPlaceHolder5
+{
+    position: absolute;
+}
+
+#footer {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 29px;
+    width: 935px;
+    position: relative;
+    background-color: #66CCFF;
+    left: 162px;
+    top: 1019px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#Label4 {
+    position: absolute;
+    font-size: 45px;
+    color: #0099FF;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    top: 36px;
+    left: 6px;
+    width: 205px;
+    height: 37px;
+    margin-right: 0px;
+}
+#Label5 {
+    position: absolute;
+    font-size: 45px;
+    color: #0099FF;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    top: 120px;
+    left: 10px;
+    width: 125px;
+    height: 47px;
+    margin-top: 9px;
+}
+#Label7 {
+    position: absolute;
+    font-size: 45px;
+    color: #0099FF;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    top: 457px;
+    left: 30px;
+    width: 840px;
+    height: 131px;
+}
+
+#Fname {
+    position: absolute;
+}
+
+#regform {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#lname {
+    position:absolute;
+    top: 145px;
+    left: 13px;
+}
+
+#mname {
+    position:absolute;
+}
+
+#address {
+    position:absolute;
+    top: 191px;
+    left: 13px;
+}
+
+#religion {
+    position:absolute;
+    top: 457px;
+    left: 652px;
+}
+
+#father {
+    position:absolute;
+}
+
+#Occupation {
+    position:absolute;
+}
+
+#mother {
+    position:absolute;
+}
+
+#occu {
+    position:absolute;
+    top: 283px;
+    left: 13px;
+}
+
+#year {
+    position:absolute;
+    top: 113px;
+    left: 430px;
+}
+
+#gender {
+    position:absolute;
+}
+
+#contact {
+position:absolute;
+}
+
+#sy {
+    position:absolute;
+}
+
+#Label20 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    top: 101px;
+    left: 11px;
+    height: 57px;
+}
+
+#Button10 {
+    position:absolute;
+}
+#TextBox1 {
+position:absolute;
+    top: 77px;
+    left: 63px;
+    width: 220px;
+    height: 12px;
+}
+#LBL1 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+#LBL2 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    top: 143px;
+    left: 6px;
+}
+
+.steps {
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.steps td {
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+    border: solid 1px #507CD1;
+}
+
+.steps th {
+
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: #507CD1;
+    color: #fff;
+}
+
+#h2 {
+    font-family: Broadway;
+}
+
+#Step1 {
+    color: #fff;
+}
+
+#contentPrint {
+     border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px 10px 10px 212px;
+    height: 880px;
+    width: 880px;
+    position: absolute;
+    border-radius: 10px;
+    top: 198px;
+    left: 3px;
+    background-image: url('images/background.jpg');
+
+}

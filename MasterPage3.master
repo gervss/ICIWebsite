@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>SJDM Cornerstone College Inc.</title>
+
+    <link href="StyleSheet4.css" rel="stylesheet" />
+    
+
+
+    
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id ="wrapper">
+
+        <div id="header">
+
+
+            <asp:Image ID="Image1" runat="server" ImageAlign="Left" ImageUrl="~/Images/Picture1.png" />
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label3" runat="server" style="top: 19px; left: 358px" Text="SJDM Cornerstone College Inc."></asp:Label>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Style="top: 76px; left: 486px; height: 29px; width: 429px" Text="(Formerly SJDM Cornerstone Academy Inc.)"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Style="top: 109px; left: 438px; width: 546px; right: 346px" Text="190 Libis II, Muzon, City of San Jose del Monte, Bulacan"></asp:Label>
+
+
+        </div>
+
+        <div id ="navigation">    
+
+         <ul>
+
+            <li><a href='Home.aspx'><span>Home</span></a></li>
+ 
+             <li><a href='Admission.aspx'><span>Admission</span></a></li>
+  
+             <li><a href='School.aspx'><span>School Program</span></a></li>
+
+             <li><a href='Contact.aspx'><span>Contact Us</span></a></li>
+
+             <li><a href='SPortal.aspx'><span>Student Portal</span></a></li>
+
+       </ul>
+
+
+
+
+
+        </div>
+
+        <div id ="naviline"></div>
+
+        
+      
+        <div id ="content">
+        
+                  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+        
+             <br />
+            <br />
+             
+        
+
+             
+        <br />
+        <br />     
+        
+        <br />   
+         <br />    
+        
+                 <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                 <p>
+                     &nbsp;</p>
+             </asp:ContentPlaceHolder>
+             <br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+             </asp:ContentPlaceHolder>
+             <br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+             </asp:ContentPlaceHolder>
+             <br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+             </asp:ContentPlaceHolder>
+             <br />
+             <br />
+        
+        </div>
+
+
+
+        <div id ="footer">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright(c)2014 SJDM Cornerstone College Inc. All rights reserved.<br />
+            
+
+    </div>
+            <p style="margin-left: 200px">
+
+            </p>
+    </form>
+</body>
+</html>

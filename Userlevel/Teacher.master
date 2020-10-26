@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Teacher.master.cs" Inherits="Userlevel_Teacher" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../BackEnd/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="wrapper">
+        <div id="header">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/Picture1.png" />
+            <asp:Label ID="Label2" runat="server" Text="190 Libis II, Muzon, City of San Jose del Monte, Bulacan"></asp:Label>
+            <asp:Label ID="Label3" runat="server" Text="SJDM Cornerstone College Inc."></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="(Formerly SJDM Cornerstone Academy Inc.)"></asp:Label>
+        </div>
+
+        <div id ="navigation">
+           
+             <ul>
+            
+                 <li><a href='Tgrades.aspx'><span>Grades</span></a></li>     
+        
+
+           
+  
+
+                 <asp:Button ID="Button1" runat="server" BackColor="DeepSkyBlue" BorderColor="DeepSkyBlue" OnClick="Button1_Click" style="top: 4px; left: 1211px; height: 31px;" Text="Logout" Width="101px" />
+
+
+           
+  
+
+       </ul>
+
+        </div>
+
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

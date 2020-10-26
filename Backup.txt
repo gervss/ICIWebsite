@@ -1,0 +1,156 @@
+<p>
+        <asp:Label ID="Label10" runat="server" Text="Label" Visible="False"></asp:Label>
+    </p>
+    <p>
+        <!--asp:FormView--! ID="FormView1" runat="server" DataSourceID="SqlDataSource1" Width="928px" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" ForeColor="Black" GridLines="Both">
+            <EditItemTemplate>
+                StudentID:
+                <asp:TextBox ID="StudentIDTextBox" runat="server" Text='<%# Bind("StudentID") %>' />
+                <br />
+                FirstName:
+                <asp:TextBox ID="FirstNameTextBox" runat="server" Text='<%# Bind("FirstName") %>' />
+                <br />
+                MiddleName:
+                <asp:TextBox ID="MiddleNameTextBox" runat="server" Text='<%# Bind("MiddleName") %>' />
+                <br />
+                LastName:
+                <asp:TextBox ID="LastNameTextBox" runat="server" Text='<%# Bind("LastName") %>' />
+                <br />
+                YearandSection:
+                <asp:TextBox ID="YearandSectionTextBox" runat="server" Text='<%# Bind("YearandSection") %>' />
+                <br />
+                Filipino:
+                <asp:TextBox ID="FilipinoTextBox" runat="server" Text='<%# Bind("Filipino") %>' />
+                <br />
+                English:
+                <asp:TextBox ID="EnglishTextBox" runat="server" Text='<%# Bind("English") %>' />
+                <br />
+                Math:
+                <asp:TextBox ID="MathTextBox" runat="server" Text='<%# Bind("Math") %>' />
+                <br />
+                AP:
+                <asp:TextBox ID="APTextBox" runat="server" Text='<%# Bind("AP") %>' />
+                <br />
+                Mapeh:
+                <asp:TextBox ID="MapehTextBox" runat="server" Text='<%# Bind("Mapeh") %>' />
+                <br />
+                Science:
+                <asp:TextBox ID="ScienceTextBox" runat="server" Text='<%# Bind("Science") %>' />
+                <br />
+                TLE:
+                <asp:TextBox ID="TLETextBox" runat="server" Text='<%# Bind("TLE") %>' />
+                <br />
+                Balance:
+                <asp:TextBox ID="BalanceTextBox" runat="server" Text='<%# Bind("Balance") %>' />
+                <br />
+                Remarks:
+                <asp:TextBox ID="RemarksTextBox" runat="server" Text='<%# Bind("Remarks") %>' />
+                <br />
+                <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+                &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+            </EditItemTemplate>
+            <EditRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+            <FooterStyle BackColor="#CCCCCC" />
+            <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+            <InsertItemTemplate>
+                StudentID:
+                <asp:TextBox ID="StudentIDTextBox" runat="server" Text='<%# Bind("StudentID") %>' />
+                <br />
+                FirstName:
+                <asp:TextBox ID="FirstNameTextBox" runat="server" Text='<%# Bind("FirstName") %>' />
+                <br />
+                MiddleName:
+                <asp:TextBox ID="MiddleNameTextBox" runat="server" Text='<%# Bind("MiddleName") %>' />
+                <br />
+                LastName:
+                <asp:TextBox ID="LastNameTextBox" runat="server" Text='<%# Bind("LastName") %>' />
+                <br />
+                YearandSection:
+                <asp:TextBox ID="YearandSectionTextBox" runat="server" Text='<%# Bind("YearandSection") %>' />
+                <br />
+                Filipino:
+                <asp:TextBox ID="FilipinoTextBox" runat="server" Text='<%# Bind("Filipino") %>' />
+                <br />
+                English:
+                <asp:TextBox ID="EnglishTextBox" runat="server" Text='<%# Bind("English") %>' />
+                <br />
+                Math:
+                <asp:TextBox ID="MathTextBox" runat="server" Text='<%# Bind("Math") %>' />
+                <br />
+                AP:
+                <asp:TextBox ID="APTextBox" runat="server" Text='<%# Bind("AP") %>' />
+                <br />
+                Mapeh:
+                <asp:TextBox ID="MapehTextBox" runat="server" Text='<%# Bind("Mapeh") %>' />
+                <br />
+                Science:
+                <asp:TextBox ID="ScienceTextBox" runat="server" Text='<%# Bind("Science") %>' />
+                <br />
+                TLE:
+                <asp:TextBox ID="TLETextBox" runat="server" Text='<%# Bind("TLE") %>' />
+                <br />
+                Balance:
+                <asp:TextBox ID="BalanceTextBox" runat="server" Text='<%# Bind("Balance") %>' />
+                <br />
+                Remarks:
+                <asp:TextBox ID="RemarksTextBox" runat="server" Text='<%# Bind("Remarks") %>' />
+                <br />
+                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
+                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+            </InsertItemTemplate>
+            <ItemTemplate>
+                StudentID:
+                <asp:Label ID="StudentIDLabel" runat="server" Text='<%# Bind("StudentID") %>' />
+                <br />
+                Name:<asp:Label ID="LastNameLabel" runat="server" Text='<%# Bind("LastName") %>' />
+                ,
+                <asp:Label ID="FirstNameLabel" runat="server" Text='<%# Bind("FirstName") %>' />
+                &nbsp;<asp:Label ID="MiddleNameLabel" runat="server" Text='<%# Bind("MiddleName") %>' />
+&nbsp;<br />
+                YearandSection:
+                <asp:Label ID="YearandSectionLabel" runat="server" Text='<%# Bind("YearandSection") %>' />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Filipino&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Math&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAPEH&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TLE<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="FilipinoLabel" runat="server" Text='<%# Bind("Filipino") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <asp:Label ID="EnglishLabel" runat="server" Text='<%# Bind("English") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="MathLabel" runat="server" Text='<%# Bind("Math") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="APLabel" runat="server" Text='<%# Bind("AP") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="MapehLabel" runat="server" Text='<%# Bind("Mapeh") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <asp:Label ID="ScienceLabel" runat="server" Text='<%# Bind("Science") %>' />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="TLELabel" runat="server" Text='<%# Bind("TLE") %>' />
+                <br />
+                <br />
+                Balance:
+                <asp:Label ID="BalanceLabel" runat="server" Text='<%# Bind("Balance") %>' />
+                PHP<br />
+                Remarks:
+                <asp:Label ID="RemarksLabel" runat="server" Text='<%# Bind("Remarks") %>' />
+                <br />
+
+            </ItemTemplate>
+            <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+            <RowStyle BackColor="White" />
+        <asp:FormView-->
+
+
+
+
+
+        <!--asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" SelectCommand="SELECT [StudentID], [FirstName], [MiddleName], [LastName], [YearandSection], [Filipino], [English], [Math], [AP], [Mapeh], [Science], [TLE], [Balance], [Remarks] FROM [grades] WHERE ([StudentID] = @StudentID)">
+            <SelectParameters>
+                <asp:ControlParameter ControlID="Label10" Name="StudentID" PropertyName="Text" Type="String" />
+            </SelectParameters>
+        </!--asp:SqlDataSource-->
+
+
+
+
+
+    </p>
